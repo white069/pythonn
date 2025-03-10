@@ -1,0 +1,7 @@
+https://www.notion.so/Linux-19760904115f80519520c42c14410597
+mv- premesta i preimenuje fajlove i foldere. Kada se fajl premesti on brise originalni fajl i ima iste opcije kao cp
+cp-kopira fajlove ili direktorijuma; argumenti za cp su: -i(doci ce poruka pre overvrajtovanja jednog fajla na drugi); -r(omogucava kopiranje foldera i podfoldera, bez ove opcije ne mozemo kopirati foldere); -v(prikazuje nam sta je sve tacno kopirano iz jednog u drugi). Pr cp /etc/passwd .- kopira passwd u trenutni direktorijum, ova tacka na kraju oznacava trenutni diretkroijum.
+man program- otvara prirucnik samo za izvrsne fajlove, citljivije je nego - - help.
+{komanda1;komanda2;…}nesto- ovo je grupna komanda i sve unutar nje je tretirano kao jedno, sto nam skracuje vreme rada. Obicno se koriste za promenljive podatke kao fajl sa >,>>.
+cat fajlovi- ucitava sadrzaj fajlova na konzoli. Ako nismo stavili nijedan fajl onda on pomocu > pravi fajl sa onim sto napisemo u konzoli.
+Regularni izrazi su specijalni sabloni koji se koriste za pretrazivanje i manipulacijom teksta

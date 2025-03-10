@@ -1,0 +1,6 @@
+https://www.notion.so/Github-1ab60904115f80368ab8cc873a1c2ceb#1b060904115f80fba27de76a086fb104
+# Osnovne Git komande
+- `git init` → Kreira novi Git repozitorijum
+- `git status` → Prikazuje trenutno stanje repozitorijuma
+- `git add` → Dodaje fajlove u staging area
+- `git commit -m "Poruka"` → Čuva promene
