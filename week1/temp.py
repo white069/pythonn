@@ -70,10 +70,52 @@ This is a temporary script file.
 # Написати функцију који враћа збир цифара четвороцифреног броја.
 
 # def cifre(x):
-#     prvac=x%10
-#     drugac=(x//10)%10
+#     prvac=x%10  #daje ostatak sa brojem 10, a to ce uvek biti poslednja cifra
+#     drugac=(x//10)%10   #deli sa 10 i uzima ostatak sa ostatkom tog deljenja
 #     trecac=(x//100)%10
 #     cetvrtac=(x//1000)%10
 #     return prvac+drugac+trecac+cetvrtac
 # =============================================================================
+
+
+# =============================================================================
+# Задатак 9
+# Написати функцију која враћа аритметичку средину цифара четвороцифреног броја унетог путем стандардног улаза.
+#aritmeticka sredina je zbir cifara broja i podeljen sa brojem cifra
+# def aritmetsr():
+#     print("Unesite cetvorocifreni broj: ")
+#     x=int(input())
+#     prvac=x%10  
+#     drugac=(x//10)%10 
+#     trecac=(x//100)%10
+#     cetvrtac=x//1000
+#     return (prvac+drugac+trecac+cetvrtac)/4
+# =============================================================================
+
+
+# =============================================================================
+# Задатак 10
+# Написати функцију која враћа геометријску средину цифара четвороцифреног броја унетог путем стандардног улаза. Омогућити заокруживање резултата на произвољан број децимала.
+#Slicno kao prethodni, samo sto imamo dva inputa i geometrijska sredina je mnozenje unutar korena
+# def geometrijskasr():
+#     x=int(input("Unesti cetvorocifreni broj"))
+#     prvac=x%10
+#     drugac=(x//10)%10
+#     trecac=(x//100)%10
+#     cetvrac=x//1000
+#     geomet=(prvac+drugac+trecac+cetvrac)**(1/4)
+#     print("Unesti na koliko brojeva zelis da zaokruzis: ")
+#     decim=int(input())
+#     return round(geomet, decim)
+# =============================================================================
+
+
+
+
+
+
+
+
+
+
 
