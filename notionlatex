@@ -1,0 +1,3 @@
+https://www.notion.so/LaTex-1b560904115f80aea0b9e5e7b6f579cd
+LaTex je sistem za pripremu dokumentacija koji se koristi za profesionalno formatiranje tekstova, narocito u tehnickim oblastima.
+Prva linija koda je deklarisanje dokument klase, koji kontrolise celokupni izgled dokumenta.>\documentclass{article}
