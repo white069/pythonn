@@ -1193,40 +1193,28 @@ def ispisati(x):
 # Излаз
 # 4
 
-x1 = int(input())
-y1 = int(input())
-x2 = int(input())
-y2 = int(input())
+# x1 = int(input())
+# y1 = int(input())
+# x2 = int(input())
+# y2 = int(input())
 
-x_min = min(x1, x2)
-x_max = max(x1, x2)
-y_min = min(y1, y2)
-y_max = max(y1, y2)
+# x_min = min(x1, x2)
+# x_max = max(x1, x2)
+# y_min = min(y1, y2)
+# y_max = max(y1, y2)
 
-# Presek sa prvim kvadrantom
-lx = max(x_min, 0)
-dx = x_max
-ly = max(y_min, 0)
-dy = y_max
+# lx = max(x_min, 0)
+# dx = x_max
+# ly = max(y_min, 0)
+# dy = y_max
 
-# Proveravamo da li postoji pravougaonik u 1. kvadrantu
-if lx < dx and ly < dy:
-    sirina = dx - lx
-    visina = dy - ly
-    povrsina = sirina * visina
-    print(povrsina)
-else:
-    print(0)
-
-
-
-
-
-
-
-
-
-
+# if lx < dx and ly < dy:
+#     sirina = dx - lx
+#     visina = dy - ly
+#     povrsina = sirina * visina
+#     print(povrsina)
+# else:
+#     print(0)
 #===================================================================
 
 
