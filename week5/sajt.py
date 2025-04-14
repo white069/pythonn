@@ -268,14 +268,27 @@ def niska(string):
 # Излаз
 # 12
 
-niz1=list(map(int,input().split()))
-niz2=list(map(int,input().split()))
-niz1=set(niz1)
-niz2=set(niz2)
-if niz1-niz2:
-    print(list(niz1-niz2)[0])
-else:
-    print(list(niz2-niz1)[0])
+# niz1=list(map(int,input().split()))
+# niz2=list(map(int,input().split()))
+# niz1=set(niz1)
+# niz2=set(niz2)
+# if niz1-niz2:
+#     print(list(niz1-niz2)[0])
+# else:
+#     print(list(niz2-niz1)[0])
+    
+# niz1=list(map(int,input().split()))
+# niz2=list(map(int,input().split()))
+# if len(niz1)>len(niz2):
+#     for i in niz1:
+#         if i not in niz2:
+#             print(i)
+#             break
+# else:
+#     for i in niz2:
+#         if i not in niz1:
+#             print(i)
+#             break
 
 
 
